@@ -14,5 +14,10 @@
 	<classpathentry kind="lib" path="C:/Users/Hem/Desktop/SELENIUM/selenium-java-3.141.59/libs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Hem/Desktop/SELENIUM/selenium-java-3.141.59/libs/okio-1.14.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Hem/Desktop/SELENIUM/testng-6.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hem/Desktop/SELENIUM/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hem/Desktop/SELENIUM/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hem/Desktop/SELENIUM/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hem/Desktop/SELENIUM/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hem/Desktop/SELENIUM/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6-test-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
