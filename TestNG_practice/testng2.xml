@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+  <test thread-count="5" name="Regression">
+  <parameter name="Apikey" value="123456">
+</parameter>
+  <groups>
+  	<run>
+  			<include name="smoke"></include>
+  	</run>
+  
+  </groups>
+    <classes>
+    	<class name="test.Day1"></class>
+    	
+    		<class name="test.Day2"></class>
+    		<class name="test.Day3"></class>
+    			<class name="test.Day4"></class>
+    	
+    </classes>
+    
+   </test>
+</suite>

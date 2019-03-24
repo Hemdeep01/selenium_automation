@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Numbers">
+  <test thread-count="5" name="number tests">
+ 	<classes>
+ 		<class name="test.One">
+ 		
+ 			
+ 	
+ 		 		</class>
+ 		
+ 		<class name="test.Two">
+ 		<methods>
+ 		<exclude name="TwoOfTwo">
+ 		</exclude>
+ 		
+ 		</methods>
+ 		
+ 		
+ 		</class>
+ 
+	 </classes>
+   </test>
+   <test name= "number tests contd">
+   <classes>
+   		<class name="test.Three">
+   		
+   		</class>
+   </classes>
+   
+   
+   </test>
+</suite>
