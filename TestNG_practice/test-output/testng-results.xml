@@ -1,139 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="8" passed="6" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-03-24T22:02:38Z" name="Loan Department" finished-at="2019-03-24T22:02:38Z" duration-ms="30">
+  <suite started-at="2019-03-26T17:51:35Z" name="Default suite" finished-at="2019-03-26T17:51:41Z" duration-ms="6471">
     <groups>
-      <group name="smoke">
-        <method signature="Day4.webLoginHomeLoan()[pri:0, instance:test.Day4@68e5eea7]" name="webLoginHomeLoan" class="test.Day4"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2019-03-24T22:02:38Z" name="Personal loan" finished-at="2019-03-24T22:02:38Z" duration-ms="30">
-      <class name="test.Day2">
-        <test-method is-config="true" signature="prereq()[pri:0, instance:test.Day2@291b4bf5]" started-at="2019-03-24T22:02:38Z" name="prereq" finished-at="2019-03-24T22:02:38Z" duration-ms="0" status="PASS">
+    <test started-at="2019-03-26T17:51:35Z" name="Default test" finished-at="2019-03-26T17:51:41Z" duration-ms="6471">
+      <class name="test.DependencyAnnot">
+        <test-method signature="Login()[pri:0, instance:test.DependencyAnnot@31f9b85e]" started-at="2019-03-26T17:51:35Z" name="Login" finished-at="2019-03-26T17:51:38Z" duration-ms="3346" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- prereq -->
-        <test-method signature="ploan()[pri:0, instance:test.Day2@291b4bf5]" started-at="2019-03-24T22:02:38Z" name="ploan" finished-at="2019-03-24T22:02:38Z" duration-ms="2" status="PASS">
+        </test-method> <!-- Login -->
+        <test-method signature="software()[pri:0, instance:test.DependencyAnnot@31f9b85e]" started-at="2019-03-26T17:51:38Z" name="software" finished-at="2019-03-26T17:51:38Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ploan -->
-      </class> <!-- test.Day2 -->
-      <class name="test.Day4">
-        <test-method signature="MobileLoginHomeLogin()[pri:0, instance:test.Day4@68e5eea7]" started-at="2019-03-24T22:02:38Z" name="MobileLoginHomeLogin" finished-at="2019-03-24T22:02:38Z" duration-ms="0" status="FAIL">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problems: 
-Syntax error on token ".", delete this token
-Type mismatch: cannot convert from void to boolean
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problems: 
-Syntax error on token ".", delete this token
-Type mismatch: cannot convert from void to boolean
-
-at test.Day4.MobileLoginHomeLogin(Day4.java:21)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.base/java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+        </test-method> <!-- software -->
+        <test-method signature="openingBrowser()[pri:0, instance:test.DependencyAnnot@31f9b85e]" started-at="2019-03-26T17:51:38Z" name="openingBrowser" finished-at="2019-03-26T17:51:41Z" duration-ms="3096" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileLoginHomeLogin -->
-        <test-method signature="webLoginHomeLoan()[pri:0, instance:test.Day4@68e5eea7]" started-at="2019-03-24T22:02:38Z" name="webLoginHomeLoan" finished-at="2019-03-24T22:02:38Z" duration-ms="0" status="PASS">
+        </test-method> <!-- openingBrowser -->
+        <test-method is-config="true" signature="deinstallSoftware()[pri:0, instance:test.DependencyAnnot@31f9b85e]" started-at="2019-03-26T17:51:41Z" name="deinstallSoftware" finished-at="2019-03-26T17:51:41Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webLoginHomeLoan -->
-      </class> <!-- test.Day4 -->
-    </test> <!-- Personal loan -->
-    <test started-at="2019-03-24T22:02:38Z" name="Car loan" finished-at="2019-03-24T22:02:38Z" duration-ms="30">
-      <class name="test.Day3">
-        <test-method signature="LoginApiCar(java.lang.String, java.lang.String)[pri:0, instance:test.Day3@5ab9e72c]" started-at="2019-03-24T22:02:38Z" name="LoginApiCar" data-provider="getData" finished-at="2019-03-24T22:02:38Z" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firstset]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abc123_9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginApiCar -->
-        <test-method signature="LoginApiCar(java.lang.String, java.lang.String)[pri:0, instance:test.Day3@5ab9e72c]" started-at="2019-03-24T22:02:38Z" name="LoginApiCar" data-provider="getData" finished-at="2019-03-24T22:02:38Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[thirdset]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[iloveyoukannu_143]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginApiCar -->
-        <test-method signature="webLoginCarLoan(java.lang.String)[pri:0, instance:test.Day3@5ab9e72c]" started-at="2019-03-24T22:02:38Z" name="webLoginCarLoan" finished-at="2019-03-24T22:02:38Z" duration-ms="10" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[carloan.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webLoginCarLoan -->
-        <test-method signature="LoginApiCar(java.lang.String, java.lang.String)[pri:0, instance:test.Day3@5ab9e72c]" started-at="2019-03-24T22:02:38Z" name="LoginApiCar" data-provider="getData" finished-at="2019-03-24T22:02:38Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[secondset]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginApiCar -->
-      </class> <!-- test.Day3 -->
-      <class name="test.Day4">
-        <test-method is-config="true" signature="LoginApiHome()[pri:0, instance:test.Day4@68e5eea7]" started-at="2019-03-24T22:02:38Z" name="LoginApiHome" finished-at="2019-03-24T22:02:38Z" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginApiHome -->
-      </class> <!-- test.Day4 -->
-    </test> <!-- Car loan -->
-  </suite> <!-- Loan Department -->
+        </test-method> <!-- deinstallSoftware -->
+      </class> <!-- test.DependencyAnnot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
